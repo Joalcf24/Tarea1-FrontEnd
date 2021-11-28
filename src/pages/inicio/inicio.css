@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../../assets/img/aa.jpeg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    height: 100%;
+    }
+    header{
+    background-color:#3d3d3d;
+    color: white;
+    display: flex;
+    padding: 10px;
+    
+    }
+    header img{
+        width: 25%;
+    }
+    
+    .col-4{
+        width: 33%;
+    }
+    .end{
+        display: flex;
+        justify-content: end;
+    }
+    .middle{
+        display: flex;
+        justify-content: center;
+    }
+    .vcenter{
+        display: flex;
+        align-items: center;
+    }
+    .navegador a{
+        text-decoration: none;
+        color: white;   
+        list-style: none;
+        padding: 30px;
+       
+    }
+    
+    .navegador li {
+        display: inline-block;
+      
+    }
+    .navegador li a:hover {
+        background-color:#323233;
+    }
+    .container{
+        margin-top: 12rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .box{
+        border-radius: 25px;
+        display: flex;
+        text-align: center;
+        height: 40%;
+        width: 50%;
+        color: white;
+        background: #3d3d3d;
+        opacity: 0.6;
+    }
+    .box a{
+           color: rgb(255, 255, 255);
+           width: 5%;
+          
+    }
+    .col-12 {
+        width: 100%;
+      }
+    
+    .col-6 {
+      width: 50%;
+    }
+    
+    .about{
+        padding: 15px;
+    }
+    
+    .logo{
+        background: #222222;
+        border-radius: 25px;
+    }
+    
+    
+    
+    
+    

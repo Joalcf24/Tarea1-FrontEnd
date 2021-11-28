@@ -4,6 +4,7 @@ padding: 0;
 background-image: url("./assets/img/aa.jpeg");
 background-size: 100vw 100vh;
 background-attachment: fixed;
+height: 100%;
 }
 header{
 background-color:#3d3d3d;
@@ -31,41 +32,56 @@ header img{
     display: flex;
     align-items: center;
 }
-.navegador a{
-    text-decoration: none;
-    color: white;   
-    list-style: none;
+
+.login{
+    width: 350px;
+    background-color: #3d3d3d;
     padding: 30px;
-   
-}
-
-.navegador li {
-    display: inline-block;
-  
-}
-.navegador li a:hover {
-    background-color:#323233;
-}
-.container{
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-.box{
-    text-align: center;
-    height: 40%;
-    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 4px;
+    font-family: 'calibri';
     color: white;
-    background:#3d3d3d;
-    opacity: 0.6; 
+    box-shadow: 7px 13px 37px #3d3d3d ;
 }
-.box a{
-       color: rgb(255, 255, 255);
-       width: 5%;
-      
+.login h4{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
+.controls{
+    width: 100%;
+    padding :2px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+
+}
+.login p{
+    height: 30px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+}
+.login a{
+    color: white;
+    text-decoration: none;
+}
+.login a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.login .btn {
+
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+
+
 
 
 

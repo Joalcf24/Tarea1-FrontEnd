@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea1</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <header>
@@ -13,25 +15,22 @@
             <img src="./assets/img/JCf-logo.png" >
             </div>
         <div class="col-4 middle">
-        <h2>Inicio</h2>
+        <h2>Inicio de Sesión</h2>
         </div>
         <div class="col-4 end vcenter">  
-            <nav class="navegador">                       
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="https://www.facebook.com/jorgealberto.cortesfonseca/">Redes Sociales</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>               
-            </nav>
+            
         </div>
     </header>
-       
-        <div class="container">
-            <div class="box">
-            <h1>JCF</h1>
-            <br>
-            <h2>Contactenos: 85719623</h2><br>
-            <a href="./pages/nosotros.html">Sobre nosotros</a>
-        </div>
-        </div>
+       <section class="login">
+           <h4>Inicio de sesión</h4>
+        <input class="controls" type="text" name="usuario" id="txtusuario" placeholder="Usuario" required>
+        <input class="controls" type="text" name="password" id="txtpassword" placeholder="Contraseña" required>
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+        <button class="btn" onclick="IniciarSesion()">Iniciar Sesion</button>
+        <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+
+       </section>
+    </form>
        
    
 </body>
